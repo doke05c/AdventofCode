@@ -9,7 +9,7 @@ countO = 0
 while i<len(a):
     if a[i] == '(':
         countO += 1;
-    if a[i] == ')':
+    else:
         countO -= 1;
     i += 1
 
@@ -21,7 +21,7 @@ countO = 0
 while countO>-1:
     if a[i] == '(':
         countO += 1;
-    if a[i] == ')':
+    else:
         countO -= 1;
     i += 1
 
